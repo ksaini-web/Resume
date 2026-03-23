@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kartik Saini - Resume</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<style>
+  /* --- Base Styles --- */
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: #f8f8f8;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  }
+
+  /* Hide scrollbars */
+  .container::-webkit-scrollbar { width: 0; background: transparent; }
+  .container { scrollbar-width: none; }
+
+  h1, h2, h3 { margin: 0; }
+
+  h1 {
+    font-size: 22px;
+    color: #1a73e8;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .top-section { text-align: center; margin-bottom: 12px; }
+
+  .top-section p { font-size: 14px; margin: 3px 0 10px 0; }
+
+  .contact { font-size: 12px; margin-bottom: 15px; word-wrap: break-word; }
+  .contact i { margin-right: 5px; color: #1a73e8; }
+
+  h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 3px;
+    margin-top: 12px;
+  }
+  h3 { font-size: 14px; color: #1a73e8; margin-top: 8px; }
+
+  a { color: #1a73e8; text-decoration: none; word-break: break-word; }
+
+  .section { margin-bottom: 12px; font-size: 12px; }
+  ul { margin: 5px 0 10px 20px; }
+
+  /* --- Project Buttons --- */
+  .project-link a {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-top: 5px;
+    background-color: #1a73e8;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  .project-link a:hover {
+    background-color: #155ab6;
+    transform: scale(1.05);
+  }
+
+  /* --- Responsive for small devices --- */
+  @media(max-width: 480px) {
+    .container {
+      width: 95%;
+      padding: 12px;
+      margin: 10px auto;
+    }
+    h1 { font-size: 20px; }
+    h2 { font-size: 14px; }
+    h3 { font-size: 12px; }
+    .section { font-size: 11px; }
+    .contact { font-size: 10px; }
+    ul { margin-left: 15px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Top Section -->
+  <div class="top-section">
+    <h1>Kartik Saini</h1>
+    <p>Front-End Developer | React & Java Enthusiast</p>
+    <div class="contact">
+      <i class="fas fa-envelope"></i> <a href="mailto:kartiksaini9084@gmail.com">kartiksaini9084@gmail.com</a> | 
+      <i class="fas fa-phone"></i> 9084419622 | 
+      <i class="fas fa-globe"></i> <a href="https://ecommerce-project-kappa-sooty.vercel.app/">eCommerce Project</a> | 
+      <i class="fas fa-globe"></i> <a href="https://ugc-website-chi.vercel.app/">UGC Clone</a> | 
+      <i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/kartiksaini2870">LinkedIn</a> | 
+      <i class="fab fa-github"></i> <a href="https://github.com/ksaini">GitHub</a>
+    </div>
+  </div>
+
+  <!-- Profile -->
+  <div class="section">
+    <h2>Profile</h2>
+    <p>
+      Front-End Developer with strong hands-on experience in <strong>React</strong>. Skilled in building responsive, interactive web apps with clean UI/UX. Knowledge of <strong>Java concepts, Collections, and Generics</strong>. Solved 114+ LeetCode problems in C++ for strong problem-solving skills. Enthusiastic about learning, improving, and building real-world web applications.
+    </p>
+  </div>
+
+  <!-- Skills -->
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Frontend: React, HTML, CSS, JavaScript, Tailwind/Bootstrap</li>
+      <li>Backend: Java (Core Concepts, Collections, Generics) – still learning</li>
+      <li>Database: MySQL / MongoDB</li>
+      <li>Tools: Git, VS Code, Postman, Vercel</li>
+      <li>Programming & DSA: C++, Data Structures & Algorithms (~114 LeetCode problems solved)</li>
+    </ul>
+  </div>
+
+  <!-- Projects -->
+  <div class="section">
+    <h2>Projects</h2>
+
+    <h3>eCommerce Web App</h3>
+    <ul>
+      <li>Developed a fully responsive eCommerce platform using <strong>React</strong></li>
+      <li>Features: product listing, cart, checkout, login/signup, dynamic filtering</li>
+      <li class="project-link"><a href="https://ecommerce-project-kappa-sooty.vercel.app/" target="_blank">🔗 Live Demo</a></li>
+    </ul>
+
+    <h3>UGC Platform Clone</h3>
+    <ul>
+      <li>Built a platform for user-generated content using <strong>React</strong></li>
+      <li>Features: posting content, liking, commenting, clean UI</li>
+      <li class="project-link"><a href="https://ugc-website-chi.vercel.app/" target="_blank">🔗 Live Demo</a></li>
+    </ul>
+  </div>
+
+  <!-- Education -->
+  <div class="section">
+    <h2>Education</h2>
+    <ul>
+      <li>Bachelor of Computer Applications (BCA), Sikkim University (2022 – 2025)</li>
+      <li>12th Standard, Maharshi Vidya Mandir (2021 – 2022)</li>
+    </ul>
+  </div>
+
+  <!-- Competitive Coding & DSA -->
+  <div class="section">
+    <h2>Competitive Coding & DSA</h2>
+    <ul>
+      <li>Solved 114+ LeetCode problems in C++</li>
+      <li>Profile: <a href="https://leetcode.com/kartiksainijzjzb" target="_blank">kartiksainijzjzb</a></li>
+      <li>Strong understanding of algorithms and data structures</li>
+    </ul>
+  </div>
+
+  <!-- Additional Info -->
+  <div class="section">
+    <h2>Additional Info</h2>
+    <ul>
+      <li>Focused on Front-End Development with React and building real-world projects</li>
+      <li>Strong knowledge of Java backend concepts for future full-stack growth</li>
+      <li>Quick learner, problem solver, and keen on improving technical skills</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
